@@ -1,8 +1,6 @@
 {
-    // package name
     "name": "2rajpx/yii2-fulldatepicker",
 
-    // package type
     "type": "yii2-extension",
 
     "description": "A yii2 extension provides support for various world calendars, including a datepicker",
@@ -18,12 +16,10 @@
         }
     ],
 
-    // package dependencies
     "require": {
         "yiisoft/yii2": "*",
     },
 
-    // class autoloading specs
     "autoload": {
         "psr-4": {
             "2rajpx\\fulldatepicker\\": ""
