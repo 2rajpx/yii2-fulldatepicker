@@ -1,0 +1,32 @@
+{
+    // package name
+    "name": "2rajpx/yii2-fulldatepicker",
+
+    // package type
+    "type": "yii2-extension",
+
+    "description": "A yii2 extension provides support for various world calendars, including a datepicker",
+    "keywords": ["yii2", "datepicker", "multi-calendars", "helper"],
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/2rajpx/yii2-fulldatepicker"
+    },
+    "authors": [
+        {
+            "name": "Tooraj Khatibi",
+            "email": "2rajpx@gmail.com"
+        }
+    ],
+
+    // package dependencies
+    "require": {
+        "yiisoft/yii2": "*",
+    },
+
+    // class autoloading specs
+    "autoload": {
+        "psr-4": {
+            "2rajpx\\fulldatepicker\\": ""
+        }
+    }
+}
